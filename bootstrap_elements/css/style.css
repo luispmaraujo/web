@@ -1,0 +1,73 @@
+.header {
+    background-color: rgb(110, 62, 138);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header_area {
+    padding: 20px;
+}
+
+.menu_area {
+    margin-top: 20px;
+    background-color: rgb(110, 62, 138);
+    color: white;
+}
+
+.menu_area nav a {
+    background-color: rgb(110, 62, 138);
+    color: white;
+}
+
+.menu_area nav a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.active {
+    background-color: gold !important;
+    color: black !important;
+}
+
+.logo {
+    width: 125px;
+}
+
+.botao_modal {
+    margin-bottom: 20px;
+    background-color: rgb(110, 62, 138);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.modal-body img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main_area {
+    margin-bottom: 20px;
+}
+
+.main .carousel_area {
+    margin-bottom: 20px;
+}
+
+.main .carousel_area {
+    margin-bottom: 20px;
+}
+
+.main .card {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: rgb(110, 62, 138);
+    color: white;
+}
+
+.footer_area {
+    padding: 20px;
+    text-align: center;
+}
