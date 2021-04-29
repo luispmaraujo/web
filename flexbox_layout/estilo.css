@@ -1,0 +1,108 @@
+/*CSS Definições Gerais - Início*/
+
+body,
+ul,
+li,
+caption {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+
+/*CSS Definições Gerais - Fim*/
+
+
+/*CSS Cabeçalho - Início*/
+
+.cabecalho {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-superior {
+    display: flex;
+}
+
+.menu-superior li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+
+/*CSS Cabeçalho - Fim*/
+
+
+/*CSS Corpo - Início*/
+
+body {
+    background-color: #705714;
+}
+
+h1 {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+
+/*CSS Corpo - Fim*/
+
+
+/*CSS Rodapé - Início*/
+
+.rodape {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/*CSS Rodapé - Fim*/
+
+
+/*CSS FlexBox - Início*/
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 3840px;
+    margin: 0 auto;
+}
+
+.flex-box>div {
+    margin: 10px;
+    flex: 1 1 640px;
+}
+
+
+/*CSS FlexBoz - Fim*/
