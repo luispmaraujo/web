@@ -6,21 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de filmes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="container-fluid header">
-        <section class="row barra-superior-area">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-superior">
+        <section class="row menu-superior">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <img class="logo" src="img/popcorn.svg" alt="Autor: pongsakornRed. Disponível em: ">
+                    <figure>
+                        <img class="logo" src="img/popcorn.svg" alt="Autor: pongsakornRed. Disponível em: ">
+                    </figure>
                     <h2 class="titulo-site">PopCorn Filmes</h2>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,7 +52,8 @@
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <input class="form-control me-2 caixa-pesquisa" type="search" placeholder="Digite aqui." aria-label="Search">
+                            <input class="form-control me-2 caixa-pesquisa" type="search" placeholder="Digite aqui."
+                                aria-label="Search">
                             <button class="btn btn-outline-success botao-pesquisar" type="submit">Procurar</button>
                         </form>
                     </div>
@@ -56,25 +64,34 @@
     <main class="container-xxl main">
         <section class="lancamentos">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 embed-responsive-16by9">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <h1 class="titulo-primario">Lançamentos</h1>
                 </div>
             </div>
-            <div class="row ">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/V5Fsj_sCKdg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                    <iframe class="container-fluid video" src="https://www.youtube.com/embed/V5Fsj_sCKdg"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                     <div class="card ">
                         <div class="card-body ">
                             <h5 class="card-title ">Godzilla vs Kong</h5>
-                            <h6 class="card-subtitle mb-2 text-muted "><b>Data de lançamento:</b> 25 de março de 2021 (Brasil)
+                            <h6 class="card-subtitle mb-2 text-muted "><b>Data de lançamento:</b> 25 de março de 2021
+                                (Brasil)
                             </h6>
-                            <p class="card-text "><b>Sinopse: </b>Em Godzilla vs Kong, as duas poderosas forças da natureza vão se enfrentar em batalha. Enquanto a organização científica secreta Monarch caça, investiga e estuda a origem dos Titãs, uma conspiração tem a intenção
-                                de acabar com todas as criaturas, sejam elas ameaçadoras ou não. O mundo sobreviverá ao duelo de monstros?
+                            <p class="card-text "><b>Sinopse: </b>Em Godzilla vs Kong, as duas poderosas forças da
+                                natureza vão se enfrentar em batalha. Enquanto a organização científica secreta Monarch
+                                caça, investiga e estuda a origem dos Titãs, uma conspiração tem a intenção
+                                de acabar com todas as criaturas, sejam elas ameaçadoras ou não. O mundo sobreviverá ao
+                                duelo de monstros?
                             </p>
-                            <p class="card-text "><b>Diretor: </b><a href="https://en.wikipedia.org/wiki/Adam_Wingard">Adam Wingard</a></p>
-                            <p class="card-text "><b>Elenco: </b><a href="https://pt.wikipedia.org/wiki/Alexander_Skarsg%C3%A5rd">Alexander
+                            <p class="card-text "><b>Diretor: </b><a
+                                    href="https://en.wikipedia.org/wiki/Adam_Wingard">Adam Wingard</a></p>
+                            <p class="card-text "><b>Elenco: </b><a
+                                    href="https://pt.wikipedia.org/wiki/Alexander_Skarsg%C3%A5rd">Alexander
                                     Skarsgård</a> | <a href="https://pt.wikipedia.org/wiki/Millie_Bobby_Brown">Millie
                                     Bobby Brown</a> | <a href="https://pt.wikipedia.org/wiki/Rebecca_Hall">Rebecca
                                     Hall</a>
@@ -92,11 +109,12 @@
         </section>
         <section class="destaque">
             <div class="row">
-                <div class="col-8 col-sm-8 col-md-8 col-lg-10 col-xl-10 col-xxl-10">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <h2 class="titulo-secundario">Em destaque</h2>
                 </div>
-                <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2 col-xxl-2 dropdown">
-                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 dropdown">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -107,59 +125,71 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="card mb-3 card-destaque">
                         <figure>
-                            <img src="img/tom_e_jerry.jpg" class="img-fluid rounded card-img-top" alt="Cartaz - Tom e Jerry - O Filme">
-                            <figcaption>Citação: </figcaption>
+                            <img src="img/tom_e_jerry.jpg" class="img-fluid rounded card-img-top"
+                                alt="Cartaz - Tom e Jerry - O Filme">
                         </figure>
                         <div class="card-body">
                             <h5 class="card-title">Tom & Jerry - O Filme</h5>
-                            <p class="card-text">Depois de anos vivendo na casa de um casal de idosos que o trata como um animal de estimação, Jerry precisa se virar para sobreviver quando descobre que existem novos locatários no local. E pior do que isso: eles trouxeram
+                            <p class="card-text">Depois de anos vivendo na casa de um casal de idosos que o trata como
+                                um animal de estimação, Jerry precisa se virar para sobreviver quando descobre que
+                                existem novos locatários no local. E pior do que isso: eles trouxeram
                                 consigo um gato.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="card mb-3 card-destaque">
                         <figure>
-                            <img src="img/mulher_maravilha.jpg" class="img-fluid rounded card-img-top" alt="Cartaz - Mulher Maravilha">
-                            <figcaption>Citação: </figcaption>
+                            <img src="img/mulher_maravilha.jpg" class="img-fluid rounded card-img-top"
+                                alt="Cartaz - Mulher Maravilha">
                         </figure>
                         <div class="card-body">
                             <h5 class="card-title">Mulher-maravilha 1984</h5>
-                            <p class="card-text">Mulher-Maravilha 1984 acompanha Diana em 1984, durante a Guerra Fria, entrando em conflito com dois grande inimigos - o empresário de mídia Maxwell Lord e a amiga que virou inimiga Barbara Minerva, enquanto se reúne com seu
+                            <p class="card-text">Mulher-Maravilha 1984 acompanha Diana em 1984, durante a Guerra Fria,
+                                entrando em conflito com dois grande inimigos - o empresário de mídia Maxwell Lord e a
+                                amiga que virou inimiga Barbara Minerva, enquanto se reúne com seu
                                 interesse amoroso Steve Trevor.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="card mb-3 card-destaque">
                         <figure>
                             <img src="img/pinochio.jpg" class="img-fluid rounded card-img-top" alt="Cartaz - Pinochio">
-                            <figcaption>Citação: </figcaption>
                         </figure>
                         <div class="card-body">
                             <h5 class="card-title">Pinóquio</h5>
-                            <p class="card-text">Conheça a verdade sombria por trás do clássico que marcou gerações. Gepeto é um solitário marceneiro que sonha em ser pai e deseja que Pinóquio, o boneco que acabou de construir, ganhe vida. Seu pedido é atendido, mas a desobediência
-                                de Pinóquio faz com que ele se perca de casa e embarque em uma jornada repleta de mistérios e seres fantásticos, que o levará a conhecer de perto os perigos do mundo.</p>
+                            <p class="card-text">Conheça a verdade sombria por trás do clássico que marcou gerações.
+                                Gepeto é um solitário marceneiro que sonha em ser pai e deseja que Pinóquio, o boneco
+                                que acabou de construir, ganhe vida. Seu pedido é atendido, mas a desobediência
+                                de Pinóquio faz com que ele se perca de casa e embarque em uma jornada repleta de
+                                mistérios e seres fantásticos, que o levará a conhecer de perto os perigos do mundo.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="card mb-3 card-destaque">
                         <figure>
-                            <img src="img/monster_hunter.jpg" class="img-fluid rounded card-img-top" alt="Cartaz - Scooby! O Filme">
-                            <figcaption>Citação: </figcaption>
+                            <img src="img/monster_hunter.jpg" class="img-fluid rounded card-img-top"
+                                alt="Cartaz - Scooby! O Filme">
                         </figure>
                         <div class="card-body">
                             <h5 class="card-title">Monster Hunter</h5>
-                            <p class="card-text">Paralelo ao nosso mundo, existe outro: um mundo de poderosos e perigoso monstros que controlam seus territórios com ferocidade mortal. Quando a Tenente Artemis (Milla Jovovich) e seu esquadrão de elite são transportados através
-                                de um portal que liga os dois mundos, eles vão ser confrontados com a experiência mais chocante de suas vidas. Em sua desesperada tentativa de voltar para casa, a corajosa tenente encontra um caçador misterioso (Tony Jaa),
-                                cujas habilidades únicas permitiram com que ele sobrevivesse nessa terra hostil. Enfrentando incansáveis e aterrorizantes ataques dos monstros, os dois guerreiros se unem para lutar contra eles e encontrar um meio de voltarem
+                            <p class="card-text">Paralelo ao nosso mundo, existe outro: um mundo de poderosos e perigoso
+                                monstros que controlam seus territórios com ferocidade mortal. Quando a Tenente Artemis
+                                (Milla Jovovich) e seu esquadrão de elite são transportados através
+                                de um portal que liga os dois mundos, eles vão ser confrontados com a experiência mais
+                                chocante de suas vidas. Em sua desesperada tentativa de voltar para casa, a corajosa
+                                tenente encontra um caçador misterioso (Tony Jaa),
+                                cujas habilidades únicas permitiram com que ele sobrevivesse nessa terra hostil.
+                                Enfrentando incansáveis e aterrorizantes ataques dos monstros, os dois guerreiros se
+                                unem para lutar contra eles e encontrar um meio de voltarem
                                 para casa.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -167,7 +197,8 @@
                 </div>
                 <div col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12>
                     <div class="dropdown">
-                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Carregar mais filmes
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -188,7 +219,8 @@
             <div class="row">
                 <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1">
                     <a href="blog-detail-2.html">
-                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="" class="be-ava-comment foto-usuario">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt=""
+                            class="be-ava-comment foto-usuario">
                     </a>
                 </div>
 
@@ -205,7 +237,8 @@
                         </span>
 
                         <p class="be-comment-text">
-                            <b>Avaliação:</b> Pellentesque gravida tristique ultrices. Sed blandit varius mauris, vel volutpat urna hendrerit id. Curabitur rutrum dolor gravida turpis tristique efficitur.
+                            <b>Avaliação:</b> Pellentesque gravida tristique ultrices. Sed blandit varius mauris, vel
+                            volutpat urna hendrerit id. Curabitur rutrum dolor gravida turpis tristique efficitur.
                         </p>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -216,7 +249,8 @@
                 <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1">
 
                     <a href="blog-detail-2.html">
-                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" class="be-ava-comment foto-usuario">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt=""
+                            class="be-ava-comment foto-usuario">
                     </a>
                 </div>
 
@@ -233,7 +267,8 @@
                         </span>
 
                         <p class="be-comment-text">
-                            <b>Avaliação:</b> Pellentesque gravida tristique ultrices. Sed blandit varius mauris, vel volutpat urna hendrerit id. Curabitur rutrum dolor gravida turpis tristique efficitur.
+                            <b>Avaliação:</b> Pellentesque gravida tristique ultrices. Sed blandit varius mauris, vel
+                            volutpat urna hendrerit id. Curabitur rutrum dolor gravida turpis tristique efficitur.
                         </p>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -245,7 +280,8 @@
 
 
                     <a href="blog-detail-2.html">
-                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" class="be-ava-comment foto-usuario">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt=""
+                            class="be-ava-comment foto-usuario">
                     </a>
                 </div>
 
@@ -262,7 +298,8 @@
                         </span>
 
                         <p class="be-comment-text">
-                            <b>Avaliação: </b>Pellentesque gravida tristique ultrices. Sed blandit varius mauris, vel volutpat urna hendrerit id. Curabitur rutrum dolor gravida turpis tristique efficitur.
+                            <b>Avaliação: </b>Pellentesque gravida tristique ultrices. Sed blandit varius mauris, vel
+                            volutpat urna hendrerit id. Curabitur rutrum dolor gravida turpis tristique efficitur.
                         </p>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -272,7 +309,8 @@
                 </div>
                 <div col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12>
                     <div class="dropdown">
-                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Carregar mais comentários
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
@@ -289,27 +327,37 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 entrevista-card">
-                    <iframe class="video-making-of" src="https://www.youtube.com/embed/FXWQvBJdg5E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 entrevista-card">
+                    <iframe class="video-making-of" src="https://www.youtube.com/embed/FXWQvBJdg5E"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                     <h5 class="titulo-quinario"><b>Filme: </b>Godzilla vs Kong</h5>
                     <p><b>Diretor: </b>Adam Wingard</p>
                     <p><b>Roteirista: </b>Max Borenstein, Eric Pearson</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 entrevista-card">
-                    <iframe class="video-making-of" src="https://www.youtube.com/embed/oi8RPTS86zY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 entrevista-card">
+                    <iframe class="video-making-of" src="https://www.youtube.com/embed/oi8RPTS86zY"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                     <h5 class="titulo-quinario"><b>Filme: </b>Monster Hunter</h5>
                     <p><b>Diretor: </b>Paul W.S. Anderson</p>
                     <p><b>Roteirista: </b>Paul W. S. Anderson</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 entrevista-card">
-                    <iframe class="video-making-of" src="https://www.youtube.com/embed/qpanJHMXOUg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 entrevista-card">
+                    <iframe class="video-making-of" src="https://www.youtube.com/embed/qpanJHMXOUg"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                     <h5 class="titulo-quinario"><b>Filme: Mulher-maravilha 1984</b></h5>
                     <p><b>Diretor: Patty Jenkins</b></p>
                     <p><b>Roteirista: </b>Patty Jenkins, Geoff Johns, David Callaham</p>
                 </div>
                 <div col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12>
                     <div class="dropdown">
-                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton3"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             Carregar mais filmes
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
@@ -325,17 +373,19 @@
                     <h2 class="titulo-secundario">Novidades</h2>
                     <div class="card mb-3">
                         <div class="row g-0">
-                            <div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-5 col-xl-5 col-xxl-5">
                                 <figure>
                                     <img class="novidades-card" src="img/nomadland.jpg" alt="Nomadland">
                                     <figcaption>Citação: </figcaption>
                                 </figure>
                             </div>
-                            <div class="col-12 col-sm-8 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
+                            <div class="col-12 col-sm-8 col-md-8 col-lg-7 col-xl-7 col-xxl-7">
                                 <div class="card-body">
                                     <h5 class="card-title">Nomadland</h5>
                                     <p class="card-text">
-                                        Após o colapso econômico de uma colônia industrial na zona rural de Nevada, Fern reúne suas coisas em uma van e parte rumo a uma viagem exploratória, fora da sociedade dominante, como uma nômade dos tempos modernos.</p>
+                                        Após o colapso econômico de uma colônia industrial na zona rural de Nevada, Fern
+                                        reúne suas coisas em uma van e parte rumo a uma viagem exploratória, fora da
+                                        sociedade dominante, como uma nômade dos tempos modernos.</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     <input class="btn btn-dark" type="button" value="Hollywood">
                                     <input class="btn btn-dark" type="button" value="Oscar">
@@ -346,18 +396,23 @@
                     </div>
                     <div class="card mb-3">
                         <div class="row g-0">
-                            <div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-5 col-xl-5 col-xxl-5">
                                 <figure>
                                     <img class="novidades-card" src="img/raya.jpg" alt="Raya">
                                     <figcaption>Citação: </figcaption>
                                 </figure>
                             </div>
-                            <div class="col-12 col-sm-8 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
+                            <div class="col-12 col-sm-8 col-md-8 col-lg-7 col-xl-7 col-xxl-7">
                                 <div class="card-body">
                                     <h5 class="card-title">Raya e o Último Dragão</h5>
                                     <p class="card-text">
-                                        Há muito tempo, no mundo de fantasia de Kumandra, humanos e dragões viviam juntos em harmonia. Mas quando uma força maligna ameaçou a terra, os dragões se sacrificaram para salvar a humanidade. Agora, 500 anos depois, o mesmo mal voltou e cabe a uma guerreira
-                                        solitária, Raya, rastrear o lendário último dragão para restaurar a terra despedaçada e seu povo dividido. No entanto, ao longo de sua jornada, ela aprenderá que será necessário mais do que um dragão para salvar
+                                        Há muito tempo, no mundo de fantasia de Kumandra, humanos e dragões viviam
+                                        juntos em harmonia. Mas quando uma força maligna ameaçou a terra, os dragões se
+                                        sacrificaram para salvar a humanidade. Agora, 500 anos depois, o mesmo mal
+                                        voltou e cabe a uma guerreira
+                                        solitária, Raya, rastrear o lendário último dragão para restaurar a terra
+                                        despedaçada e seu povo dividido. No entanto, ao longo de sua jornada, ela
+                                        aprenderá que será necessário mais do que um dragão para salvar
                                         o mundo – também será necessário confiança e trabalho em equipe.</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     <input class="btn btn-dark" type="button" value="Hollywood">
@@ -369,18 +424,23 @@
                     </div>
                     <div class="card mb-3">
                         <div class="row g-0">
-                            <div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
+                            <div class="col-12 col-sm-4 col-md-4 col-lg-5 col-xl-5 col-xxl-5">
                                 <figure>
-                                    <img class="novidades-card" src="img/vivuva.jpg" alt="Viuca das Sombras">
+                                    <img class="novidades-card" src="img/vivuva.jpg" alt="Viuva das Sombras">
                                     <figcaption>Citação: </figcaption>
                                 </figure>
                             </div>
-                            <div class="col-12 col-sm-8 col-md-6 col-lg-7 col-xl-7 col-xxl-7">
+                            <div class="col-12 col-sm-8 col-md-8 col-lg-7 col-xl-7 col-xxl-7">
                                 <div class="card-body">
                                     <h5 class="card-title">A Viúva das Sombras</h5>
-                                    <p class="card-text">Baseado em eventos reais, o terror conta a história de um grupo de voluntários que entra em uma densa floresta para resgatar um adolescente desaparecido. Nesse mesmo lugar, diversas pessoas sumiram nas últimas três
-                                        décadas, e apenas alguns corpos foram encontrados, todos nus. A comunicação com a base fora da mata é interrompida misteriosamente. Sem sucesso na busca pelo jovem, eventos sobrenaturais acontecem e a equipe começa
-                                        acreditar na lenda local que diz existir espíritos sombrios que levam as pessoas.
+                                    <p class="card-text">Baseado em eventos reais, o terror conta a história de um grupo
+                                        de voluntários que entra em uma densa floresta para resgatar um adolescente
+                                        desaparecido. Nesse mesmo lugar, diversas pessoas sumiram nas últimas três
+                                        décadas, e apenas alguns corpos foram encontrados, todos nus. A comunicação com
+                                        a base fora da mata é interrompida misteriosamente. Sem sucesso na busca pelo
+                                        jovem, eventos sobrenaturais acontecem e a equipe começa
+                                        acreditar na lenda local que diz existir espíritos sombrios que levam as
+                                        pessoas.
                                     </p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     <input class="btn btn-dark" type="button" value="Hollywood">
@@ -393,9 +453,15 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-6 sobre">
                     <h2 class="titulo-secundario">Sobre</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in natus temporibus praesentium ea ut voluptatibus fugit incidunt dolores odit dolorum maxime, nam eum dicta quo modi mollitia optio expedita quis vel provident laborum eligendi?
-                        Vitae pariatur nihil necessitatibus qui beatae tempore maiores cumque quo illum sed optio reiciendis voluptatibus natus explicabo fuga magni, quis possimus iusto! Ullam laudantium, temporibus voluptates reprehenderit esse distinctio
-                        id ducimus iste exercitationem quis doloribus pariatur est. Quis porro officia iure doloribus molestiae facere est nam magnam adipisci nisi tenetur rerum, corporis temporibus quos sed ex consectetur. Culpa eos perspiciatis nam,
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in natus temporibus praesentium ea
+                        ut voluptatibus fugit incidunt dolores odit dolorum maxime, nam eum dicta quo modi mollitia
+                        optio expedita quis vel provident laborum eligendi?
+                        Vitae pariatur nihil necessitatibus qui beatae tempore maiores cumque quo illum sed optio
+                        reiciendis voluptatibus natus explicabo fuga magni, quis possimus iusto! Ullam laudantium,
+                        temporibus voluptates reprehenderit esse distinctio
+                        id ducimus iste exercitationem quis doloribus pariatur est. Quis porro officia iure doloribus
+                        molestiae facere est nam magnam adipisci nisi tenetur rerum, corporis temporibus quos sed ex
+                        consectetur. Culpa eos perspiciatis nam,
                         et error hic! Doloribus.</p>
                     <h2 class="titulo-secundario">Editorial</h2>
                     <p><b>Redação: </b>Luís Araújo</p>
@@ -423,12 +489,14 @@
                         </svg></a>
 
                     <!-- Instagram -->
-                    <a href="https://www.instagram.com"> <svg xmlns="http://www.w3.org/2000/svg" fill="purple" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <a href="https://www.instagram.com"> <svg xmlns="http://www.w3.org/2000/svg" fill="purple"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
                             <path
                                 d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
                         </svg></a>
                     <!-- Linkedin -->
-                    <a href="https://www.linkedin.com/in/luispmaraujo/"> <svg xmlns="http://www.w3.org/2000/svg" fill="blue" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <a href="https://www.linkedin.com/in/luispmaraujo/"> <svg xmlns="http://www.w3.org/2000/svg"
+                            fill="blue" class="bi bi-linkedin" viewBox="0 0 16 16">
                             <path
                                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                         </svg></a>
@@ -461,7 +529,8 @@
     <footer class="container-fluid footer">
         <div class="row">
             <div col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12>
-                <p class=" copyright ">Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b class="bold">ICEI PUC MINAS</b></p>
+                <p class=" copyright ">Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b
+                        class="bold">ICEI PUC MINAS</b></p>
             </div>
         </div>
     </footer>

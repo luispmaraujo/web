@@ -10,6 +10,7 @@
     text-align: center;
     align-items: center;
     margin-right: 20px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -60,12 +61,14 @@ p {
     text-align: justify;
 }
 
-.lancamentos {
-    margin: 20px;
-}
-
 img {
     margin-bottom: 20px;
+}
+
+.lancamentos {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
 }
 
 .video {
@@ -82,7 +85,9 @@ img {
 }
 
 .destaque {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
 }
 
 .dropdown {
@@ -116,7 +121,9 @@ img {
 }
 
 .avaliacoes {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
 }
 
 .foto-usuario {
@@ -131,7 +138,9 @@ img {
 }
 
 .entrevistas {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
 }
 
 .making-of {
@@ -145,7 +154,10 @@ img {
 }
 
 .novidades {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .novidades-card {
@@ -168,6 +180,8 @@ svg {
     height: 24px;
     margin-right: 10px;
     margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 .code {
