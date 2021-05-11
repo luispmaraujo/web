@@ -1,214 +1,227 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
 .menu-superior {
-    text-align: center !important;
-    align-items: center !important;
+  text-align: center !important;
+  align-items: center !important;
 }
 
 .logo {
-    width: 75px;
-    border-radius: 50%;
-    text-align: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  width: 75px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .titulo-site {
-    color: white;
-    margin-right: 20px;
-    text-align: center;
-    align-content: center;
+  color: white;
+  margin-right: 20px;
+  text-align: center;
+  align-content: center;
 }
 
 .nav-link {
-    width: 100%;
-    color: white !important;
-    text-align: center;
-    align-items: center;
-    margin-right: 10px;
+  color: white !important;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .caixa-pesquisa {
-    text-align: center;
-    align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .botao-pesquisar {
-    background-color: yellow;
-    color: black;
-    margin-left: 10px;
-    margin-right: 20px;
-    text-align: center;
-    align-items: center;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+  border-color: white;
+}
+
+.botao-pesquisar:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+  border-color: black;
 }
 
 .titulo-primario {
-    margin-bottom: 20px;
-    align-items: center;
-    text-align: center;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 .titulo-secundario {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .titulo-quinario {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .lancamentos {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
 }
 
 .video {
-    width: 100%;
-    height: 360px;
-}
-
-.fa-star {
-    margin-bottom: 20px;
+  width: 100%;
+  height: 360px;
 }
 
 .fa-star:hover {
-    color: yellow;
+  color: red;
 }
 
 .destaque {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
 }
 
 .dropdown {
-    text-align: right;
+  text-align: right;
 }
 
 .dropdown-toggle {
-    background-color: black;
-    margin-bottom: 20px;
+  background-color: black;
+  margin-bottom: 20px;
 }
 
 .dropdown-menu {
-    background-color: black;
-    color: white;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.dropdown-item:hover {
-    background-color: yellow!;
-    color: black;
+  background-color: black;
+  border-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: bolder;
 }
 
 .dropdown-item {
-    background-color: black;
-    color: white;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.dropdown-item:hover {
+  background-color: yellow!;
+  color: black;
+  border-color: black;
 }
 
 .avaliacoes {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
 }
 
 .foto-usuario {
-    width: 75px;
-    margin-top: 20px;
-    border-radius: 50%;
+  width: 75px;
+  margin-top: 20px;
+  border-radius: 50%;
 }
 
 .conteudo-usuario {
-    text-align: justify;
-    align-items: center;
+  text-align: justify;
+  align-items: center;
 }
 
 .entrevistas {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
 }
 
 .making-of {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .video-making-of {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 360px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 360px;
 }
 
 .novidades {
-    margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .novidades-card {
-    width: 100%;
+  width: 100%;
 }
 
 .btn-dark {
-    margin-right: 10px;
-    text-align: center;
-    align-items: center;
+  margin-right: 10px;
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
 }
 
 .btn-dark:hover {
-    background-color: yellow;
-    color: black;
+  background-color: yellow;
+  color: black;
 }
 
 svg {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .code {
-    width: 50%;
-    text-align: center;
-    align-items: center;
+  width: 50%;
+  text-align: center;
+  align-items: center;
 }
 
 .footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
 }
 
 .copyright {
-    text-align: center;
-    align-items: center;
-    padding-top: 15px;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
 }
 
 .bold {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .active {
-    background-color: yellow;
-    color: black !important;
-    font-weight: bolder;
+  background-color: yellow;
+  color: black !important;
+  font-weight: bolder;
+}
+
+.checked {
+    color: red;
 }
