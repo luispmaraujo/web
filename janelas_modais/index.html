@@ -11,11 +11,14 @@
       let a = 2;
       console.log(a * 2);
       function ola() {
+        //Modal 1 - Janela de apresentação de mensagens
         console.log("Olá Mundo! (Função com onload no body)");
         alert("Olá mundo para o usuário - Alert");
+        //Modal 2 - Janela para inserção de informações
         let nome = prompt("Qual o seu nome?", "Digite aqui");
         console.log(`Olá ${nome}!`);
         alert(`Olá ${nome}!`);
+        //Modal 3 - Janela de confirmação de operções
         let confirma = confirm(`Confirma a operação?`);
         if (confirma) alert("Operação confirmada com sucesso.");
         else alert("Operação cancelada com sucesso.");
