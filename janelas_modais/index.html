@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olá Mundo!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      console.log("Olá mundo em JavaScript!");
+      let a = 2;
+      console.log(a * 2);
+      function ola() {
+        console.log("Olá Mundo! (Função com onload no body)");
+        alert("Olá mundo para o usuário - Alert");
+        let nome = prompt("Qual o seu nome?", "Digite aqui");
+        console.log(`Olá ${nome}!`);
+        alert(`Olá ${nome}!`);
+        let confirma = confirm(`Confirma a operação?`);
+        if (confirma) alert("Operação confirmada com sucesso.");
+        else alert("Operação cancelada com sucesso.");
+      }
+    </script>
+  </head>
+  <body onload="ola()">
+    <p>Olá Mundo!</p>
+  </body>
+</html>
