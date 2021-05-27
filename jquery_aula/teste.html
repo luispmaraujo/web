@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Teste</title>
+    <meta charset="utf-8" />
+    <script src="jquery-3.5.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#login").nome(() => {
+          if ($("#nome").val().length == 0) return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <form id="login">
+      <input id="nome" type="text" value="" />
+      <button id="btn" type="submit">OK</button>
+    </form>
+  </body>
+</html>
