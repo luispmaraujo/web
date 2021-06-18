@@ -2,69 +2,287 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lançamentos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Site de Filmes e Séries" />
+  <meta name="keywords" content="filmes, cinema, séries, laçamentos, oscar" />
+  <meta name="author" content="Luís Araújo" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lançamentos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/de481afc32.js" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <!--API Key: 2a534ff28b1cbcfcd9b0670be1e43c34-->
 </head>
 
 <body>
-    <header class="container-fluid header">
-        <section class="row barra-superior-area">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu-superior">
-                <div class="container-fluid">
-                    <img class="logo" src="img/popcorn.svg" alt="Autor: pongsakornRed. Disponível em: ">
-                    <h2 class="titulo-site">PopCorn Filmes</h2>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Página Principal</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="lancamentos.html">Lançamentos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="destaques.html">Em destaque</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="avaliacoes.html">Últimas avaliações</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="entrevistas.html">Entrevistas & Making of</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="novidades.html">Novidades</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2 caixa-pesquisa" type="search" placeholder="Digite aqui." aria-label="Search">
-                            <button class="btn btn-outline-success botao-pesquisar" type="submit">Procurar</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </section>
-    </header>
-    <main class="container-xxl main">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <h1 class="titulo-primario">Em construção...</h1>
+  <header class="container-fluid header">
+    <section class="row menu-superior">
+      <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
+          <figure>
+            <img class="logo" src="img/popcorn.svg" alt="Autor: pongsakornRed. Disponível em: " />
+          </figure>
+          <h2 class="titulo-site">PopCorn Filmes</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Página Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="lancamentos.html">Lançamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destaques.html">Em destaque</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="avaliacoes.html">Últimas avaliações</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="entrevistas.html">Entrevistas & Making of</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="novidades.html">Novidades</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 caixa-pesquisa" type="search" placeholder="Digite aqui."
+                aria-label="Search" />
+              <button id="botao-pesquisar" class="btn btn-outline-success botao-pesquisar" type="submit">
+                Procurar
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <main class="container-xxl main">
+
+
+
+
+    <div class="row">
+      <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h1 class="titulo-primario">Lançamentos</h1>
+      </div>
+  </div>
+
+
+
+
+    <div class="row item-lancamento">
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <iframe class="video" src="https://www.youtube.com/embed/yw3LOfN7wEU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="card ">
+          <div class="card-body ">
+            <h5 class="card-title ">Velozes e Furiosos 9</h5>
+            <h6 class="card-subtitle mb-2 text-muted "><b>Data de lançamento:</b> 24 de
+              junho de 2021
+              (Brasil)
+            </h6>
+            <p class="card-text "><b>Dominic Toretto e sua família precisam enfrentar o seu
+                irmão mais
+                novo Jakob, um assassino mortal que está trabalhando com uma antiga
+                inimiga, a
+                cyber-terrorista Cipher.
+            </p>
+            <p class="card-text "><b>Diretor: </b><a
+                href="https://www.themoviedb.org/person/58189-justin-lin?language=pt-BR">Justin
+                Lin</a></p>
+            <p class="card-text "><b>Elenco: </b>
+              <a href="https://www.themoviedb.org/person/12835-vin-diesel?language=pt-BR">Vin
+                Diesel</a> |
+              <a href="https://www.themoviedb.org/person/17647-michelle-rodriguez?language=pt-BR">Michelle
+                Rodriguez</a> |
+              <a href="https://www.themoviedb.org/person/22123-jordana-brewster?language=pt-BR">Jordana
+                Brewster</a> |
+              <a href="https://www.themoviedb.org/person/8169-tyrese-gibson?language=pt-BR">Tyrese
+                Gibson</a>
+            </p>
+            <p class="card-text "><b>Avaliação: </b>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <a href="https://www.themoviedb.org/movie/385128-fast-furious-9?language=pt-BR"><img class="info-imagem"
+                src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                alt="The Movies DB"></a>
+          </div>
         </div>
-    </main>
-    <footer class="container-fluid footer">
-        <div class="row">
-            <div col-12>
-                <p class=" copyright ">Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - <b class="bold">ICEI PUC MINAS</b></p>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="row item-lancamento">
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <iframe class="video" src="https://www.youtube.com/embed/Q_zkE7gzBN4"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+      </div>
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="card ">
+              <div class="card-body ">
+                  <h5 class="card-title ">Loki</h5>
+                  <h6 class="card-subtitle mb-2 text-muted "><b>Data de lançamento:</b> 09 de
+                      junho de 2021
+                      (Brasil)
+                  </h6>
+                  <p class="card-text "><b>Começando imediatamente depois que Loki rouba o
+                          Tesseract (de novo), ele se encontra diante da Autoridade de Variação
+                          Temporal, uma organização burocrática que existe fora do tempo e espaço.
+                          Forçado a responder por seus crimes contra a linha do tempo, ele recebe
+                          uma escolha: Ser deletado da realidade ou ajudar a capturar uma ameaça
+                          ainda maior.
+
+                          Michael Waldron
+                  </p>
+                  <p class="card-text "><b>Diretor: </b><a
+                          href="https://www.themoviedb.org/person/2094567-michael-waldron?language=pt-BR">Michael
+                          Waldron</a></p>
+                  <p class="card-text "><b>Elenco: </b>
+                      <a
+                          href="https://www.themoviedb.org/person/91606-tom-hiddleston?language=pt-BR">Tom
+                          Hiddleston</a> |
+                      <a href="https://www.themoviedb.org/person/887-owen-wilson?language=pt-BR">Owen
+                          Wilson</a> |
+                      <a
+                          href="https://www.themoviedb.org/person/1252533-sophia-di-martino?language=pt-BR">Sophia
+                          Di Martino</a> |
+                      <a
+                          href="https://www.themoviedb.org/person/1216606-gugu-mbatha-raw?language=pt-BR">Gugu
+                          Mbatha-Raw</a>
+                  </p>
+                  <p class="card-text "><b>Avaliação: </b>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </p>
+                  <a href="https://www.themoviedb.org/tv/84958-loki?language=pt-BR"><img
+                          class="info-imagem"
+                          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                          alt="The Movies DB"></a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row item-lancamento">
+    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <iframe class="video" src="https://www.youtube.com/embed/-Rxkz0OfFD0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="card ">
+            <div class="card-body ">
+                <h5 class="card-title ">Infiltrado</h5>
+                <h6 class="card-subtitle mb-2 text-muted "><b>Data de lançamento:</b> 27 de
+                    maio de 2021
+                    (Brasil)
+                </h6>
+                <p class="card-text "><b>Harry, conhecido apenas como H, é um homem misterioso
+                        que trabalha para uma empresa de carros-fortes e movimenta grandes
+                        quantias de dinheiro pela cidade de Los Angeles. Quando, ao impedir um
+                        assalto, ele surpreende a todos com suas habilidades de combate, suas
+                        verdadeiras intenções começam a ser questionadas e um plano maior é
+                        revelado.
+                </p>
+                <p class="card-text "><b>Diretor: </b><a
+                        href="https://www.themoviedb.org/person/956-guy-ritchie?language=pt-BR">Guy
+                        Ritchie</a></p>
+                <p class="card-text "><b>Elenco: </b>
+                    <a
+                        href="https://www.themoviedb.org/person/976-jason-statham?language=pt-BR">Jason
+                        Statham</a> |
+                    <a
+                        href="https://www.themoviedb.org/person/7497-holt-mccallany?language=pt-BR">Holt
+                        McCallany</a> |
+                    <a
+                        href="https://www.themoviedb.org/person/1665-eddie-marsan?language=pt-BR">Eddie
+                        Marsan</a> |
+                    <a
+                        href="https://www.themoviedb.org/person/2299-josh-hartnett?language=pt-BR">Josh
+                        Hartnett</a>
+                </p>
+                <p class="card-text "><b>Avaliação: </b>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </p>
+                <a href="https://www.themoviedb.org/movie/637649-wrath-of-man?language=pt-BR"><img
+                        class="info-imagem"
+                        src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+                        alt="The Movies DB"></a>
             </div>
         </div>
-    </footer>
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="
-            sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin=" anonymous "></script>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </main>
+  <footer class="container-fluid footer">
+    <div class="row">
+      <div col-12>
+        <p class="copyright">
+          Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web -
+          <b class="bold">ICEI PUC MINAS</b>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 </html>

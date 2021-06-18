@@ -1,31 +1,84 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+$font-family-sans-serif:
+  // Cross-platform generic font family (default user interface font)
+  system-ui,
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  Roboto,
+  // Basic web fallback
+  "Helvetica Neue",
+  Arial,
+  // Linux
+  "Noto Sans",
+  "Liberation Sans",
+  // Sans serif fallback
+  sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+  position: fixed;
+}
+
+.main {
+  padding-top: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .menu-superior {
   text-align: center !important;
   align-items: center !important;
 }
 
 .logo {
-  width: 75px;
+  width: 50px;
   border-radius: 50%;
   text-align: center;
   align-items: center;
-  margin-right: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 0px 20px;
 }
 
 .titulo-site {
   color: white;
-  margin-right: 20px;
   text-align: center;
   align-content: center;
 }
 
+.navbar-nav {
+  margin: 0px auto;
+}
 .nav-link {
   color: white !important;
   text-align: center;
   align-items: center;
-  margin-right: 10px;
+  margin: 0px 5px;
 }
 
 .caixa-pesquisa {
@@ -36,12 +89,11 @@
 .botao-pesquisar {
   background-color: black;
   color: white;
-  margin-left: 10px;
-  margin-right: 20px;
   text-align: center;
   align-items: center;
   font-weight: bolder;
   border-color: white;
+  margin: 0px 20px;
 }
 
 .botao-pesquisar:hover {
@@ -51,19 +103,48 @@
   border-color: black;
 }
 
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.navbar-toggler-icon {
+  width: 24px;
+}
+
 .titulo-primario {
+  margin-top: 20px;
   margin-bottom: 20px;
   align-items: center;
   text-align: center;
 }
 
-.titulo-secundario {
+.titulo-divisao {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.titulo-quinario {
+h3 {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  padding-bottom: 20px;
+}
+
+.comments-title {
+  padding-top: 20px;
+}
+
+.be-comment-name {
+  padding-right: 10px;
+}
+
 
 p {
   text-align: justify;
@@ -73,19 +154,25 @@ img {
   margin-bottom: 20px;
 }
 
-.lancamentos {
-  margin: 0px;
-  padding: 0px;
-  margin-top: 20px;
+
+.item-lancamento {
+  padding-top: 20px;
 }
 
 .video {
   width: 100%;
   height: 360px;
+  text-align: center;
+  align-items: center;
 }
 
 .fa-star:hover {
   color: red;
+}
+
+.info-imagem {
+  width: 75px;
+  padding-top: 20px;
 }
 
 .destaque {
@@ -96,6 +183,8 @@ img {
 
 .dropdown {
   text-align: right;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .dropdown-toggle {
@@ -174,6 +263,7 @@ img {
 
 .btn-dark {
   margin-right: 10px;
+  margin-bottom: 10px;
   text-align: center;
   align-items: center;
   font-weight: bolder;
@@ -223,5 +313,48 @@ svg {
 }
 
 .checked {
-    color: red;
+  color: red;
+}
+
+@media screen (min-width: 1400px) {
+  .novidades-card {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1339px) {
+  .novidades-card {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .novidades-card {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .novidades-card {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .novidades-card {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .novidades-card {
+    width: 75%;
+    height: 75%;
+    margin: 55px;
+  }
 }
